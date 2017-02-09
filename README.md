@@ -1,1 +1,1 @@
-[Chess link](https://dylanjg.github.io/chessgame/).
+[DylansChessGame](https://dylanjg.github.io/chessgame/).
