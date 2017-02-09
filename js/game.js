@@ -1307,7 +1307,7 @@ function Menu(name) {
 			switch (optionId) {
 				case "hostGame":
 					name = document.getElementById("hostGameName").value.trim();
-					if (!name || name === "Host game named…" || name === "Enter game name…" || name === "Name already taken…") {
+					if (!name || name === "Create Game Named…" || name === "Enter game name…" || name === "Name already taken…") {
 						return menu.error(document.getElementById("hostGameName"), "Enter game name…");
 					}
 					sync = new Sync();
@@ -1316,7 +1316,7 @@ function Menu(name) {
 
 				case "joinGame":
 					name = document.getElementById("joinGameName").value.trim();
-					if (!name || name === "Join game named…" || name === "Enter game name…" || name === "Game not hosted…") {
+					if (!name || name === "Join Game Named…" || name === "Enter game name…" || name === "Game not hosted…") {
 						return menu.error(document.getElementById("joinGameName"), "Enter game name…");
 					}
 					sync = new Sync();
@@ -1451,8 +1451,8 @@ controller = (function () {
 		$("#contact").click(function () {
 			$("#contact").unbind();
 			controller.flip($("#contact"), "vertical", 250, function () {
-				$("#contact").html("tim.woelfle@web.de");
-				$("#contact").attr("href", "mailto:tim.woelfle@web.de?subject=PlainChess");
+				$("#contact").html("dylangreen1413@gmail.com");
+				$("#contact").attr("href", "mailto:dylangreen1413@gmail.com?subject=Dylan's Chess Game");
 			});
 			return false;
 		});
