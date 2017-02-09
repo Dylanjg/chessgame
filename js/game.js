@@ -1,6 +1,6 @@
 /*
  * PlainChess v1.0
- * https://dylanjg.github.io/chessgame/
+ * http://plainchess.timwoelfle.de
  *
  * Copyright by Tim Wölfle (http://timwoelfle.de)
  * Licensed under the GPL Version 3 license (http://www.gnu.org/licenses/gpl-3.0.txt)
@@ -1451,8 +1451,8 @@ controller = (function () {
 		$("#contact").click(function () {
 			$("#contact").unbind();
 			controller.flip($("#contact"), "vertical", 250, function () {
-				$("#contact").html("dylangreen1413@gmail.com");
-				$("#contact").attr("href", "mailto:dylangreen1413@gmail.com?subject=Dylan's Chess Game");
+				$("#contact").html("tim.woelfle@web.de");
+				$("#contact").attr("href", "mailto:tim.woelfle@web.de?subject=PlainChess");
 			});
 			return false;
 		});
