@@ -1451,8 +1451,8 @@ controller = (function () {
 		$("#contact").click(function () {
 			$("#contact").unbind();
 			controller.flip($("#contact"), "vertical", 250, function () {
-				$("#contact").html("tim.woelfle@web.de");
-				$("#contact").attr("href", "mailto:tim.woelfle@web.de?subject=PlainChess");
+				$("#contact").html("dylangreen1413@gmail.com");
+				$("#contact").attr("href", "mailto:dylangreen1413@gmail.com?subject=Dylan's Chess Game");
 			});
 			return false;
 		});
