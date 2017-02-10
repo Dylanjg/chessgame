@@ -1,8 +1,3 @@
-/*
- * Dylan's Chess Game v1.0
- * https://dylanjg.github.io/chessgame/
- *
- * Copyright by Tim Wölfle (http://timwoelfle.de)
  * Licensed under the GPL Version 3 license (http://www.gnu.org/licenses/gpl-3.0.txt)
  *
  */
@@ -1452,7 +1447,7 @@ controller = (function () {
 			$("#contact").unbind();
 			controller.flip($("#contact"), "vertical", 250, function () {
 				$("#contact").html("dylangreen1413@gmail.com");
-				$("#contact").attr("href", "mailto:dylangreen1413@gmail.com?subject=Dylan's Chess Game");
+				$("#contact").attr("href", "mailto:dylangreen1413@gmail.com?subject=DylansChessGame");
 			});
 			return false;
 		});
