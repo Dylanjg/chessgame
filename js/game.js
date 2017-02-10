@@ -1,3 +1,8 @@
+/*
+ * PlainChess v1.0
+ * https://dylanjg.github.io/chessgame
+ *
+ * Copyright by Tim Wölfle (http://timwoelfle.de)
  * Licensed under the GPL Version 3 license (http://www.gnu.org/licenses/gpl-3.0.txt)
  *
  */
