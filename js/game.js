@@ -1,15 +1,3 @@
-/*
- * PlainChess v1.0
- * http://plainchess.timwoelfle.de
- *
- * Copyright by Tim Wölfle (http://timwoelfle.de)
- * Licensed under the GPL Version 3 license (http://www.gnu.org/licenses/gpl-3.0.txt)
- *
- */
-
-/*global $: false, localStorage: false */
-/*jslint devel: true, browser: true, sloppy: true, white: true, plusplus: true, maxerr: 50, indent: 4 */
-
 // ===========
 // = Globals =
 // ===========
@@ -1451,8 +1439,7 @@ controller = (function () {
 		$("#contact").click(function () {
 			$("#contact").unbind();
 			controller.flip($("#contact"), "vertical", 250, function () {
-				$("#contact").html("tim.woelfle@web.de");
-				$("#contact").attr("href", "mailto:tim.woelfle@web.de?subject=PlainChess");
+				$("#contact").html("dylangreen1413@gmail.com");
 			});
 			return false;
 		});
